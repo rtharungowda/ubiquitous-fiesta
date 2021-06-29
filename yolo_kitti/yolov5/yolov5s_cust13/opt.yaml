@@ -1,6 +1,6 @@
-weights: /content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5/yolov5s_cust12/weights/last.pt
+weights: /content/ubiquitous-fiesta/yolo_kitti/yolov5/yolov5s_cust12/weights/last.pt
 cfg: /content/yolov5/models/yolov5s.yaml
-data: /content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5/yolo_yml.yaml
+data: /content/ubiquitous-fiesta/yolo_kitti/yolov5/yolo_yml.yaml
 hyp: data/hyps/hyp.scratch.yaml
 epochs: 600
 batch_size: 8
@@ -22,7 +22,7 @@ single_cls: false
 adam: false
 sync_bn: false
 workers: 8
-project: /content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5
+project: /content/ubiquitous-fiesta/yolo_kitti/yolov5
 entity: null
 name: yolov5s_cust
 exist_ok: false
@@ -34,4 +34,4 @@ bbox_interval: -1
 save_period: -1
 artifact_alias: latest
 local_rank: -1
-save_dir: /content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5/yolov5s_cust13
+save_dir: /content/ubiquitous-fiesta/yolo_kitti/yolov5/yolov5s_cust13

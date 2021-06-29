@@ -5,11 +5,11 @@ cd /content/yolov5
 #start training
 BATCH_SIZE="8"
 NUM_EPOCHS="600"
-TRAIN_YAML="/content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5/yolo_yml.yaml"
+TRAIN_YAML="/content/ubiquitous-fiesta/yolo_kitti/yolov5/yolo_yml.yaml"
 CLF="/content/yolov5/models/yolov5s.yaml"
-WEIGHTS="/content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5/yolov5s_cust12/weights/last.pt"
+WEIGHTS="/content/ubiquitous-fiesta/yolo_kitti/yolov5/yolov5s_cust12/weights/last.pt"
 DEVICE="0"
-PROJECT="/content/drive/MyDrive/Autonomous_driving_CNU/yolo_kitti/yolov5"
+PROJECT="/content/ubiquitous-fiesta/yolo_kitti/yolov5"
 NAME="yolov5s_cust"
 CACHE="false"
 
