@@ -1,0 +1,4 @@
+train: /content/drive/MyDrive/kitti_single/training/kitti_train.txt
+val: /content/drive/MyDrive/kitti_single/training/kitti_test.txt
+nc: 4
+names: ['pedestrain','cyclist','car','bg']
